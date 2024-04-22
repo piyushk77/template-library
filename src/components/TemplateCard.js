@@ -15,7 +15,7 @@ function TemplateCard({ template }) {
         <div className="card-body">
           <h5 className="card-title">{template.title}</h5>
           <p className="card-text">{template.description}</p>
-          <button type="button" className="btn btn-primary" onClick={handlePreview}>Preview</button>
+          <button type="button" className="btn btn-primary templateCardBtn" onClick={handlePreview}>Preview</button>
         </div>
       </div>
     </div>

@@ -23,9 +23,9 @@ function Upload() {
     <div>
       <Header />
       <div className="container mt-4">
-        <h2>Upload Template</h2>
+        <h2 className="text-center uploadHeading">Upload Template</h2>
         <div
-          className="border border-primary rounded p-5 text-center"
+          className="border border-primary p-5 text-center uploadBorder"
           onDragOver={(e) => e.preventDefault()}
           onDrop={handleDrop}
         >
